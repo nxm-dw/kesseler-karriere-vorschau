@@ -304,6 +304,8 @@ a { color: inherit; }
 }
 .kopf__nav a:hover { border-bottom-color: var(--violett-hell); }
 .kopf__cta { flex: 0 0 auto; }
+/* Die beiden Knoepfe gehoeren zusammen: halber Abstand statt 1,5rem */
+.kopf__cta + .kopf__cta { margin-left: -.75rem; }
 
 .kopf__schalter {
   display: none;
@@ -4204,7 +4206,7 @@ body.ist-funnel:not(.ist-dunkel) .knopf--leer:hover {
 
 </div>
 
-<p class="vorschau-fahne">Entwurf · Stand 14.09.2026, 15:33</p>
+<p class="vorschau-fahne">Entwurf · Stand 14.09.2026, 15:35</p>
 
 <script>
 /* Router: schaltet zwischen den drei Seiten um und setzt die Körperklasse. */
